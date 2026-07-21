@@ -1,0 +1,14 @@
+name: MossAntiCactusFlower
+version: '1.0.0'
+main: dev.wulnry.mossanticactusflower.MossAntiCactusFlower
+api-version: '1.21'
+author: wulnrydev
+description: 1.21+ kaktüs çiçeğinin çıkmasını engellemek için, optimizasyona çok önem verilmiştir.
+website: https://github.com/wulnrydev/MossAntiCactusFlower
+
+commands:
+  mossanticactusflower:
+    description: Main command for MossAntiCactusFlower plugin.
+    aliases: [macf]
+    usage: /<command> [reload]
+    permission: mossanticactusflower.admin

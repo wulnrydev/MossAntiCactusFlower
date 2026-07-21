@@ -1,0 +1,28 @@
+general:
+
+  enabled: true
+
+  prefix: "&7[&#00D420MossACF&7]"
+
+  debug: false
+
+
+messages:
+  # Sent to console/admins on plugin enable.
+  plugin-enabled: "&#00D420MossAntiCactusFlower &7has been &&#00D420enabled &7successfully."
+
+  # Sent to console/admins on plugin disable.
+  plugin-disabled: "&#00D420MossAntiCactusFlower &7has been &7disabled."
+
+  # Sent after a successful config reload via command.
+  # %time% → milliseconds it took to reload
+  reload-success: "&7Plugin configuration &&#00D420successfully &7reloaded. &7(Duration: &&#ffd500%time%ms&7)"
+
+  # Sent when a player lacks the required permission.
+  no-permission: "&7You do not have &&#ffd500permission &7to use this command."
+
+  # Sent when an unknown subcommand is used.
+  unknown-command: "&7Unknown command. Usage: &&#ffd500/macf reload"
+
+  # (Debug) Logged to console when a cactus flower growth is cancelled.
+  debug-cancelled: "&7Cactus flower growth cancelled at &&#ffd500%location%&7."
